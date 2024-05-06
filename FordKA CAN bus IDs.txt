@@ -1,0 +1,30 @@
+PID 0x202
+b6*2.55 speed (km/h)
+
+PID 0x204
+(b3*256+b4)*2 rpm
+
+PID 0x156
+(b0 - 60) Engine Temperature (°C)
+
+PID 0x434
+(b6*256+b7)/10 Fuel Level (%)
+
+PID 0x430
+(b1*65536+b2*256+b3) Odometer (KM)
+
+PID 0x3B3
+b6 b7 doors
+b6 - bit 7 handbrake
+
+PID 0x3C3
+b0 b3 - lights
+
+PID 0x421
+b0 malfunction light
+
+PID 0x42F
+b1 b2 cluster pedal
+
+PID 0x4C
+b1 Seat Belt
